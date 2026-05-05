@@ -1,0 +1,104 @@
+/* Contenedor del componente */
+:host {
+  display: block;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Fondo */
+.background {
+  position: fixed;
+  inset: 0;
+  background: url('https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  filter: brightness(0.7);
+  z-index: -1;
+}
+
+/* Tarjeta */
+.login-card {
+  position: relative;
+  width: 350px;
+  padding: 40px 30px;
+  background: #eaeaea;
+  border-radius: 20px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+/* Avatar */
+.avatar {
+  width: 70px;
+  height: 70px;
+  background: #2f5cc8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Título */
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  background: #dcdcdc;
+  outline: none;
+}
+
+/* Checkbox */
+.remember {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.remember input {
+  margin-right: 5px;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #2f5cc8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #244aa3;
+}
+
+/* Extras */
+.extra {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
