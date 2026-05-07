@@ -1,9 +1,14 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component, output } from '@angular/core';
+import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'register-component',
-  imports: [],
+  selector: 'app-register',
+  imports: [RouterLink],
   templateUrl: './register.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrls: ['./register.component.css']
 })
-export class RegisterComponent { }
+export class RegisterComponent {
+
+
+
+ }

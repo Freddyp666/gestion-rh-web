@@ -1,10 +1,13 @@
-import {  Component } from '@angular/core';
+import {  Component, output } from '@angular/core';
+import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'login-component',
-  imports: [],
+  selector: 'app-login',
+  imports: [RouterLink],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 
 })
-export class LoginComponent { }
+export class LoginComponent { 
+
+}
