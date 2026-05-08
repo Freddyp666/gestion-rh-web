@@ -60,12 +60,21 @@ input[type="text"],
 input[type="email"],
 input[type="password"] {
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   margin-top: 5px;
   border: none;
   background: #dcdcdc;
   outline: none;
   border-radius: 50px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.field {
+    flex: 1;
 }
 
 /* Checkbox */
@@ -82,9 +91,9 @@ input[type="password"] {
 
 /* Botón */
 button {
-    width: 100%;
+    width: 75%;
     margin-top: 15px;
-    padding: 10px;
+    padding: 8px;
     background: #2f5cc8;
     color: white;
     border: none;
@@ -98,7 +107,7 @@ button:hover {
 
 /* Extras */
 .extra {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 12px;
     color: #777;
 }

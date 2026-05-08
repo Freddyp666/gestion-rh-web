@@ -77,6 +77,12 @@ input[type="password"] {
   margin-right: 5px;
 }
 
+.remember label {
+  margin: 0;
+  display: inline;
+  margin-top: 0;
+  cursor: pointer;
+}
 /* Botón */
 button {
   width: 100%;
